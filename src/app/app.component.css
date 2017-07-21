@@ -1,0 +1,42 @@
+main{
+  margin: auto;
+  border: 5px solid red;
+
+}
+
+#logo{
+  border-style:double;
+  border-color: #FFF;
+  font-size: 30px;
+  padding: 7px;
+  display: inline-block;
+  margin-left:20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8B8292;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+li {
+  float:right;
+  display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    text-decoration: underline;
+  }
